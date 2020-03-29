@@ -1,19 +1,7 @@
 os: linux
 arch: arm64
 dist: bionic
-
-# make use of vm's 
-sudo: 'required'
-
-# have the docker service set up (we'll
-# update it later)
-services:
-  - 'docker'
-
-# prepare the machine before any code
-# installation scripts
-#before_install:
-#  - './.travis/main.sh'
+language: minimal
 
 # first execute the test suite.
 # after the test execution is done and didn't
