@@ -1,6 +1,6 @@
-os: linux
+#os: linux
 arch: arm64
-dist: bionic
+#dist: bionic
 language: minimal
 
 # first execute the test suite.
