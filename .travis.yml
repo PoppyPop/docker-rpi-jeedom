@@ -1,7 +1,7 @@
-#os: linux
+os: linux
 arch: arm64
-#dist: bionic
-language: minimal
+dist: bionic
+language: shell
 
 # first execute the test suite.
 # after the test execution is done and didn't
